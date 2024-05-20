@@ -1,0 +1,48 @@
+257d256
+< read dummy
+324c323
+< input="x"
+---
+> input="y"
+328d326
+<   read input
+460c458
+<     openmp=x
+---
+>     openmp="y"
+575c573
+<     install="x"
+---
+>     install="y"
+751a750
+> REPLY=1
+772a772,773
+> AUX_DIR=${SAFNWC}/import/Aux_data/Common/
+> 
+775a777,778
+>   install="n"
+> 
+792a796
+> install="n"
+851c855
+<     read input
+---
+>     input="FMI"
+857c861
+<     read input
+---
+>     input"www.fmi.fi"
+863c867
+<     read input
+---
+>     input="@fmi.fi"
+873c877
+<     input="x"
+---
+>     input="n"
+891c895
+<     input="x"
+---
+>     input="n"
+950d953
+< 
