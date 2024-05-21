@@ -28,12 +28,12 @@ RUN rm -rf /opt/nwcsaf/COTS/bufrdc_000400 && \
     rm -rf /opt/nwcsaf/COTS/netcdf-fortran-4.2 && \
     rm -rf /opt/nwcsaf/COTS/packages && \
     rm -rf /opt/nwcsaf/COTS/rtbrdf_rttov11 && \
-    rm -rf /opt/nwcsaf/COTS/rtcoef_rttov11 && \
     rm -rf /opt/nwcsaf/COTS/rtemis_rttov11 && \
     rm -rf /opt/nwcsaf/COTS/rttov_11.2 && \
     rm -rf /opt/nwcsaf/COTS/zlib-1.2.11 && \
     rm -rf /opt/nwcsaf/src && \
-    rm -rf /opt/nwcsaf/import/*
+    rm -rf /opt/nwcsaf/import/* && \
+    rm -rf /opt/nwcsaf/config/*
 
 FROM ubuntu:22.04
 
