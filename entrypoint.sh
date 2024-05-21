@@ -2,6 +2,8 @@
 
 source /opt/nwcsaf/.nwcgeo
 
-# SAFNWCTM
+SAFNWCTM
 
-sleep 600
+# SAFNWCTM command is started to the background, so wait for 10 years
+# so the container doesn't exit immediately
+sleep 315360000
