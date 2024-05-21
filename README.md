@@ -7,7 +7,7 @@ The files present in the repository are:
 * `README.md` - this file
 * `Dockerfile` - build recipe
 * `entrypoint.sh` - file to be run when the container is started
-* `nwcgeo_v2021.3.patch` - a patch file that is applied to the original installation script to make the installation automatic
+* `nwcgeo_v2021.3.patch` - a patch to make installation non-interactive and sets FMI as production centre
 
 
 ## External files needed
@@ -20,7 +20,6 @@ this directory before building.
 * `nwcgeo_v2021.3_env.sh` - environment variable template for the build script
 * `NWC-CDOP3-GEO-AEMET-SW-CODE-SYSTEM_v2021.3_01MAR24.tgz` - the core code
 * `NWC-CDOP3-GEO-AEMET-SW-CODE-COTS_v2021.3_01MAR24.tgz` - the COTS software packages
-* `nwcgeo_v2021.3.patch` - a patch to make installation non-interactive and sets FMI as production centre
 
 
 ## Building
